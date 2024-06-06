@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+blockquote {
+    font-style: italic;
+    color: #666;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 5px solid #ccc;
+}
+
+.image {
+    max-width: 500px;
+    /* border-radius: 50%; */
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#scroll {
+    position: fixed;
+    /* bottom: 20px;
+    right: 20px; */
+    display: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    /* padding: 10px; */
+    text-decoration: none;
+    z-index: 100;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 0.75em 1.5em;
+    inset: auto 2em 2em auto;
+}
+
+#scroll:hover {
+    background-color: #555;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px){
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .image {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .image {
+        max-width: 350px;
+    }
+}
+
